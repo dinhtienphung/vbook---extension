@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "author": "Tymup",
+    "description": "",
+    "name": "Trang Truyện",
+    "source": "https://trangtruyen.site/",
+    "version": 1,
+    "type": "novel", 
+    "local": "vi-VN"
+  },
+  "search": {
+    "url": "https://trangtruyen.site",
+    "selector": "div.item-truyen",
+    "name": "h3.title",
+    "link": "a",
+    "cover": "img",
+    "author": "span.author"
+  },
+  "detail": {
+    "name": "h1.title",
+    "author": "a.author-name",
+    "description": "div.summary",
+    "cover": "div.book-img img",
+    "chapterList": "div.list-chapters a"
+  },
+  "chapter": {
+    "content": "div.chapter-content"
+  }
+}
